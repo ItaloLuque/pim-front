@@ -1,0 +1,12 @@
+<div id="registro">
+  <h1>Cadastramento de Contatos</h1>
+  <input type="number" id="codigoPessoa" placeholder="Código da Pessoa:">
+  <input type="text" id="nomePessoa" placeholder="Nome da Pessoa:">
+  <input type="text" id="fonePessoa" placeholder="Telefone da Pessoa:">
+  <div class="buttons-container">
+      <button (click)="buscarMedicos()" class="cadastrar-btn">buscar</button>
+      <button (click)="buscarMedicoPorId(4)" class="cadastrar-btn">buscarPorId</button>
+  </div>
+  <div id="message"></div>
+  <div id="lista"></div>
+</div>
